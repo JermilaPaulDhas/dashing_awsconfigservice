@@ -2,7 +2,7 @@
  
 <ul>
   <li class="noncompliant" data-foreach-noncompliant="noncompliantrules">
-   <div>
+   <div data-hideif="noncompliant.noncompliantcount | equals 0">
     <span class="noncompliantRegion" data-bind="noncompliant.region"></span><span class="noncompliantCount" data-bind="noncompliant.noncompliantcount"></span>
   </div>
   </li>
