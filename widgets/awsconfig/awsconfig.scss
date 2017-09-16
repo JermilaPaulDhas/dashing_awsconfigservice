@@ -1,0 +1,33 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #6B8E23;
+
+// ----------------------------------------------------------------------------
+// Widget-clock styles
+// ----------------------------------------------------------------------------
+.widget-awsconfig {
+
+  background-color: $background-color;
+
+  .noncompliant {
+    float: left;
+    padding: 3px 0px;
+    font-size: 12px;
+    width:100%;
+    background-color: #B72126
+  }
+
+  .noncompliant span {
+    padding: 0px 4px;
+  }
+
+  .noncompliantRegion {
+    float: left
+  }
+
+  .noncompliantCount {
+    float: right
+  }
+
+}
